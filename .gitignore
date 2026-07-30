@@ -1,0 +1,41 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Build and coverage output
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and model caches. Keep future metadata files trackable.
+/models/*
+!/models/README.md
+!/models/manifest.json
+/checkpoints/
+.cache/huggingface/
+
+# Generated extraction and evaluation output
+output/
+outputs/
+artifacts/
+benchmarks/reports/
